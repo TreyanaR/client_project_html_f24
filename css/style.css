@@ -15,3 +15,19 @@ h2{
     font-family: 'Times New Roman', Times, serif;
     color:white
 }
+
+header > a{
+   position: absolute;
+   left: -50%;
+   top: auto;
+   width: 2%;
+   height: 2%;
+   overflow: hidden;
+}
+
+header > a:focus{
+    position: static;
+    width: auto;            
+    height: auto;   
+   text-decoration: underline;    
+}   
