@@ -6,7 +6,8 @@ body{
 
 h1{
     font-size: larger;
-    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold ;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 
@@ -33,6 +34,29 @@ header > a:focus{
     height: auto;   
    text-decoration: underline;    
 }   
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+   /* align-items: center;*/
+    background-color:#00274c ;
+    color: #ffcb05;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li:hover {
+    border: 5px solid #ffcb05;
+}
+
+
+
+
 
 
 
