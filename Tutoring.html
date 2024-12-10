@@ -58,10 +58,13 @@
     <footer>
         <p> Email: umsi.academicsuccess@umich.edu</p>
         <p>Website:<a href="https://www.si.umich.edu/student-experience/academic-success"> Academic Success </a></p>
+        <p>© Copyrights <span id="year"></span> by Treyana Reed. All rights reserved.</p>
          <!--Content is directly cited and paraphrased from https://sites.google.com/umich.edu/umsitutoring/home-->
          <!--ChatGPT was utilized to help troubleshoot the axe error "all touchpoints must be 24px large or leave sufficient space", no code was given to chatgpt just the error, it suggested <br> and I inserted the <br> throughout-->
     </footer>
-    
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>   
 </body>
 
 </html>

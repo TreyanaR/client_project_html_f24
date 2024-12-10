@@ -110,7 +110,11 @@
     </main>
     <footer>
         <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
+        <p>© Copyrights <span id="year"></span> by Treyana Reed. All rights reserved.</p>
         <!--ChatGPT was utilized to help troubleshoot the axe error "all touchpoints must be 24px large or leave sufficient space", no code was given to chatgpt just the error, it suggested <br> and I inserted the <br> throughout-->
         </footer>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+            </script>  
 </body>
 </html>
